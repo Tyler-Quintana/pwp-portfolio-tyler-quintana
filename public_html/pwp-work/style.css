@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+.header {
+    background-color: blue;
+    position: relative;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    background-color: gray;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects {
+    background-color: aqua;
+}
+
+.contact {
+    background-color: darkgray;
+}
