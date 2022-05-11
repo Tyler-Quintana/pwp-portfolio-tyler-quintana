@@ -8,6 +8,9 @@
 html,
 body{
     height: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
 }
 
 .header {
@@ -21,12 +24,29 @@ body{
     flex-direction: column;
 }
 
-.info {
-    background-color: gray;
+#Profile {
+    display: flex;
     height: 70vh;
+    background-color: azure;
+    align-items: center;
+    justify-content: space-between;
+}
+.info {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 5vh;
+}
+
+#about-me {
+    font-size: 5.5em;
+}
+
+.tyler-img {
+    width: 50%;
+    height: 50%;
+    vertical-align: bottom;
+    display: flex;
 }
 
 .projects {
@@ -35,4 +55,24 @@ body{
 
 .contact {
     background-color: darkgray;
+}
+
+.contact-wrapper {
+    border-radius: 5px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+}
+
+.contact-header {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding-top: 1em;
 }
