@@ -13,7 +13,15 @@ body{
     text-align: left;
 }
 
-.header {
+.nav-link1{
+    margin-left: 40vh;
+}
+
+h1{
+    font-size: 5.5rem;
+}
+
+#header {
     background-color: blue;
     position: relative;
     height: 70vh;
@@ -26,35 +34,52 @@ body{
 
 #Profile {
     display: flex;
+    position: relative;
     height: 70vh;
     background-color: azure;
     align-items: center;
     justify-content: space-between;
 }
 .info {
-    display: flex;
+    display: block;
     justify-content: center;
     flex-direction: column;
     margin-left: 5vh;
 }
-
+ .info-text{
+     margin-bottom: 10vh;
+ }
 #about-me {
     font-size: 5.5em;
+    margin-bottom: 10vh;
 }
 
 .tyler-img {
-    width: 50%;
-    height: 50%;
+    width: 5%;
+    height: 5%;
     vertical-align: bottom;
-    display: flex;
+
+    margin-right: 5vh;
 }
 
 .projects {
     background-color: aqua;
 }
+#work{
+    height: 70vh;
+    display: flex;
+    position: relative;
 
-.contact {
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 4.5em;
+}
+#contact {
     background-color: darkgray;
+    height: 60vh;
 }
 
 .contact-wrapper {
@@ -64,6 +89,7 @@ body{
     background-color: white;
     z-index: 10;
     position: relative;
+    height: 40vh;
 }
 
 .contact-header {
@@ -75,4 +101,22 @@ body{
     margin-inline-end: 0px;
     font-weight: bold;
     padding-top: 1em;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 15vh;
+    padding-left: 15vh;
+    font-size: 1.5em;
+}
+
+#list1{
+    margin-bottom: 5vh;
+
+}
+
+#list2{
+    margin-bottom: 5vh;
 }

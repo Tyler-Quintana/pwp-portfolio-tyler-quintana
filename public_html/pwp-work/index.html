@@ -12,38 +12,50 @@
     <title>Tyler Quintana Portfolio</title>
 </head>
 <body>
-<ul class="nav nav-pills nav-justified">
-    <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Who Am I?</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-    </li>
-</ul>
-<div class="header">
+<section class="container-fluid" id="intro">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tyler Quintana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link1" href="#">About Me</a>
+                    <a class="nav-link1" href="#">Portfolio</a>
+                    <a class="nav-link1" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<div class="container-fluid" id="header">
 <h1>Tyler Quintana</h1>
 <h2>Fullstack Website Developer</h2>
 </div>
+</section>
 
-<section id="Profile">
-    <div class="info">
+<section class="about-me">
+    <div class="container-fluid " id="Profile">
+        <div class="info-text ">
          <h2 id="about-me">Get To Know Me</h2>
          <p>My name is Tyler Quintana. I am an Albuquerque based Fullstack Website Developer. I started learning Web Development in 2021 by teaching myself the basics. I decided I wanted to dive head first into the industry and jumped into the CNM Deep Dive Bootcamp in 2022. I enjoy taking on challenges that I know will push me out of my comfort zone to grow as a person. That aspect of me is what made me believe I should give coding a try!</p>
          <p>Going through the bootcamp has helped me increase my skills with languages such as HTML and CSS. As well as teach me entirely new skill sets such as using JavaScript, git, GitHub,  Node, the command line, Bootstrap, and MySQL. It has also helped me with my soft skills such as what it is really like to work with a team on big projects. I look forward to continuing my coding journey in the next stage of my career! If you think I would be a good fit for your team, or would like to get to know me, send me a message.</p>
+        </div>
+        <div class="tyler-img ">
+            <img src="" alt ="Tyler">
+        </div>
     </div>
-    <div class="tyler-img">
-        <img src="Tyler%20Quintana.webp" alt ="Tyler"
+
+</section>
+
+<section class="projects">
+    <div class="container-fluid" id="work">
+         <h2 id="about-projects">My Projects</h2>
+        <p>The Capstone team I was a part of during my time at the bootcamp worked together to create this website in conjunction with the Albuquerque Wildlife Federation Organization. We created a user-friendly website where both the organization and user can upload images of designated locations around New Mexico to archive and log the changes of the environment over time.</p>
     </div>
 </section>
 
-<div class="projects">
-    <h2>My Projects</h2>
-</div>
-
-<section class="contact">
+<section class="container-fluid" id="contact">
     <div class="contactWrapper">
         <div class="container">
             <div id="contactForm">
@@ -53,12 +65,20 @@
                             <h2 class="contact-header text-center">Contact Me</h2>
                             <form name="contact V1" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/confirmation/"><p hidden=""><label>Don’t fill this out if you're human: <input name="bot-field"></label></p><input type="hidden" name="form-name" value="contact V1"><div class="form-group"><input type="text" class="form-control" required="" placeholder="NAME" name="replyTo"></div><div class="form-group"><input type="email" class="form-control" required="" placeholder="EMAIL" name="email"></div><div class="form-group"><textarea class="form-control" rows="3" required="" placeholder="MESSAGE" name="message"></textarea></div><button type="submit" class=" custom-btn">Send message</button>
                             <div class="form">
-                                <input type="text" class="form-control" required="" placeholder="NAME" name="replyTo">
+
                             </div>
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6" id="contactList">
+                        <div class="contact-links">
+                            <li class="contact-list">
+                            <ul id="list1">tylerquintana537@gmail.com</ul>
+                            <ul id="list2">Linkedin</ul>
+                            <ul id="list3">Github</ul>
+                        </li>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
