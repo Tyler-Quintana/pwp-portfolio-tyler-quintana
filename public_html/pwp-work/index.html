@@ -66,11 +66,28 @@
                     <div class="col-md-6">
                         <div class="contact-wrapper z-depth-2">
                             <h2 class="contact-header text-center">Contact Me</h2>
-                            <form name="contact V1" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/confirmation/"><p hidden=""><label>Don’t fill this out if you're human: <input name="bot-field"></label></p><input type="hidden" name="form-name" value="contact V1"><div class="form-group"><input type="text" class="form-control" required="" placeholder="NAME" name="replyTo"></div><div class="form-group"><input type="email" class="form-control" required="" placeholder="EMAIL" name="email"></div><div class="form-group"><textarea class="form-control" rows="3" required="" placeholder="MESSAGE" name="message"></textarea></div><button type="submit" class=" custom-btn">Send message</button>
-                            <div class="form">
 
-                            </div>
-                            </form>
+                                <form>
+                                    <fieldset>
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Name</label>
+                                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Email</label>
+                                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Message</label>
+                                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Message">
+                                        </div>
+
+                                            </select>
+
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </fieldset>
+                                </form>
+
                         </div>
                     </div>
                     <div class="col-md-6" id="contactList">
