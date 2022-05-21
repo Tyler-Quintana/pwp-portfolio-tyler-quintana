@@ -17,13 +17,19 @@ body{
 
 h1{
     font-size: 5.5rem;
+    font-weight: 700;
+}
+
+#header-row{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
 #header {
-    background-color: blue;
+
     position: relative;
 
-    text-align: center;
+
     display: flex;
     align-items: center;
     justify-content: center;
