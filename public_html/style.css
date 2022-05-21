@@ -13,9 +13,7 @@ body{
     text-align: left;
 }
 
-.nav-link1{
-    margin-left: 40vh;
-}
+
 
 h1{
     font-size: 5.5rem;
@@ -84,9 +82,24 @@ h1{
 h2{
     font-size: 4.5em;
 }
+
+
 #contact {
-    background-color: darkgray;
-    height: 60vh;
+
+    height: 40vh;
+}
+
+.mb-3{
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.g-recaptcha{
+    padding-left: 2vh;
+}
+
+.contact-button{
+    padding-left: 2vh;
 }
 
 .contact-wrapper {
@@ -96,7 +109,7 @@ h2{
     background-color: white;
     z-index: 10;
     position: relative;
-    height: 40vh;
+    height: 57vh;
 }
 
 .contact-header {
@@ -126,4 +139,16 @@ h2{
 
 #list2{
     margin-bottom: 5vh;
+}
+
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+
+
+}
+
+#footer-text{
+    color: white;
 }
