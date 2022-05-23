@@ -40,6 +40,7 @@ h1{
     margin-bottom: 10vh;
     padding-bottom: 10vh;
     padding-top: 10vh;
+    background-color: #d4d9db;
 }
 
 /*About Me*/
@@ -50,6 +51,10 @@ h1{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15vh;
+}
+
+#me{
+
 }
 
 #about-me {
@@ -71,10 +76,10 @@ h1{
 /*Projects*/
 
 .projects {
-
+    background-color: #eef0f1;
 }
 #work{
-    height: 70vh;
+
     display: flex;
     position: relative;
     align-items: center;
@@ -83,6 +88,29 @@ h1{
 
 h2{
     font-size: 4.5em;
+}
+
+#about-projects{
+    margin-bottom: 10vh;
+}
+
+#project-row{
+
+    margin-top: 5vh;
+    padding-top: 5vh;
+
+}
+
+#project-img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+#placeholder{
+    height: 60%;
 }
 
 /*Contact*/
@@ -102,6 +130,11 @@ h2{
 
 .contact-button{
     padding-left: 2vh;
+}
+
+.contactWrapper{
+    padding-bottom: 6vh;
+    margin-bottom: 6vh;
 }
 
 .contact-wrapper {
@@ -135,17 +168,25 @@ h2{
 }
 
 #list1{
-    margin-bottom: 5vh;
+
 }
 
 #list2{
-    margin-bottom: 5vh;
+
+}
+
+a{
+    padding-bottom: 5vh;
 }
 
 .row2{
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0;
+}
+
+.contact-button{
+    padding-bottom: 6vh;
 }
 
 /*Footer*/
