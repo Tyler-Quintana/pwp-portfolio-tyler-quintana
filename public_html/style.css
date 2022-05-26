@@ -101,6 +101,10 @@ h2{
 
 }
 
+#project-text{
+    padding-top: 4vh;
+}
+
 #project-img{
     display: flex;
     justify-content: center;
@@ -158,26 +162,30 @@ h2{
     padding-top: 1em;
 }
 
-.contact-list {
+#icons{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-top: 15vh;
-    padding-left: 15vh;
+    justify-content: center;
     font-size: 1.5em;
+    align-content: center;
+    text-align: center;
 }
 
-#list1{
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 
 }
 
-#list2{
+/*#email-icon{*/
+/*    margin-bottom: 2vh;*/
+/*}*/
 
-}
-
-a{
-    padding-bottom: 5vh;
-}
+/*#linkedin-icon{*/
+/*    margin-bottom: 2vh;*/
+/*}*/
 
 .row2{
     display: flex;
@@ -189,8 +197,16 @@ a{
     padding-bottom: 6vh;
 }
 
+
+
 /*Footer*/
 
 #footer-text{
     color: white;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

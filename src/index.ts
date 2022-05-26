@@ -14,7 +14,7 @@ require('dotenv').config()
 
 const validation = [
     check('name', 'A valid name is required.').not().isEmpty().trim().escape(),
-    check('email', 'Please provide a valid email.').isEmail,
+    check('email', 'Please provide a valid email.').isEmail(),
     check('message', 'A message of up to 2000 characters is required.').trim().escape().isLength({min: 1, max:2000})
 ]
 
@@ -53,7 +53,7 @@ const handlePostRequest = (request: Request, response: Response) => {
     }
 
     const {name, email, message} = request.body
-
+    console.log(name)
     const mailgunData = {
         to: process.env.MAIL_RECIPIENT,
         from: `${name} <postmaster@${process.env.MAILGUN_DOMAIN}>`,
@@ -71,9 +71,6 @@ const handlePostRequest = (request: Request, response: Response) => {
         response.send(
             `<div class='alert alert-danger' role='alert'><strong>Oh Snap3!</strong> Email failed. Please try again.</div>`
         ))
-
-    console.log(name.body.name)
-
 }
 
 const indexRoute = express.Router()
