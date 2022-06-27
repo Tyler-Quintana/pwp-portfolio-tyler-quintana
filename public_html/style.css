@@ -118,10 +118,11 @@ h2{
 }
 
 .carousel {
-    height: 80%;
-    width: 60%;
-    /*background-color: green;*/
+    height: 90%;
+    width: 70%;
     color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 /*Contact*/
